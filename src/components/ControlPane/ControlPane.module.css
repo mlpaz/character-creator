@@ -4,6 +4,7 @@
   padding-top: 18px;
   background-color: white;
   border-radius: 8px;
+
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
@@ -23,4 +24,11 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+@media (max-width: 1024px) {
+  .controlPane {
+    margin-bottom: 0px;
+    margin-right: 32px;
+  }
 }
